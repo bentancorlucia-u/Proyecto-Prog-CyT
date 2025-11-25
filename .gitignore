@@ -1,0 +1,15 @@
+# Entorno virtual
+venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Configuraciones del sistema/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.log
