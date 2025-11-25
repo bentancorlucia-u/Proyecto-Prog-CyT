@@ -1,0 +1,353 @@
+[
+  {
+    "nombre": "Colaless alta jacinto - Blanco",
+    "precio": "$279",
+    "imagen": "https://f.fcdn.app/imgs/77502f/sisi.com.uy/sisiuy/f03d/webp/catalogo/38588_001/800x1200/colaless-alta-jacinto-blanco.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-alta-jacinto-blanco_38588_001",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless alta jacinto - Lila",
+    "precio": "$279",
+    "imagen": "https://f.fcdn.app/imgs/aa431f/sisi.com.uy/sisiuy/a5ba/webp/catalogo/38588_062/800x1200/colaless-alta-jacinto-lila.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-alta-jacinto-lila_38588_062",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien triangulo preformado violeta - Rosado",
+    "precio": "$529",
+    "imagen": "https://f.fcdn.app/imgs/ade7dc/sisi.com.uy/sisiuy/e306/webp/catalogo/38488_055/800x1200/soutien-triangulo-preformado-violeta-rosado.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-triangulo-preformado-violeta-rosado_38488_055",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien triangulo preformado violeta - Soft coral",
+    "precio": "$529",
+    "imagen": "https://f.fcdn.app/imgs/b56364/sisi.com.uy/sisiuy/45cd/webp/catalogo/38488_440/800x1200/soutien-triangulo-preformado-violeta-soft-coral.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-triangulo-preformado-violeta-soft-coral_38488_440",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Bikini violeta - Rosado",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/731318/sisi.com.uy/sisiuy/f089/webp/catalogo/38489_055/800x1200/bikini-violeta-rosado.jpg",
+    "link": "https://sisi.com.uy/catalogo/bikini-violeta-rosado_38489_055",
+    "marca": "SiSi"
+  },
+
+  {
+    "nombre": "Bikini violeta - Soft coral",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/8da57f/sisi.com.uy/sisiuy/8bc1/webp/catalogo/38489_440/800x1200/bikini-violeta-soft-coral.jpg",
+    "link": "https://sisi.com.uy/catalogo/bikini-violeta-soft-coral_38489_440",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Culotte violeta - Rosado",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/adb09b/sisi.com.uy/sisiuy/8fb2/webp/catalogo/38490_055/800x1200/culotte-violeta-rosado.jpg",
+    "link": "https://sisi.com.uy/catalogo/culotte-violeta-rosado_38490_055",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Culotte violeta - Soft coral",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/dc10c2/sisi.com.uy/sisiuy/4b46/webp/catalogo/38490_440/800x1200/culotte-violeta-soft-coral.jpg",
+    "link": "https://sisi.com.uy/catalogo/culotte-violeta-soft-coral_38490_440",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien top clavel - Gris melange",
+    "precio": "$599",
+    "imagen": "https://f.fcdn.app/imgs/8e5c9b/sisi.com.uy/sisiuy/9e27/webp/catalogo/38564_026/800x1200/soutien-top-clavel-gris-melange.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-top-clavel-gris-melange_38564_026",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien top clavel - Nude",
+    "precio": "$599",
+    "imagen": "https://f.fcdn.app/imgs/c1f638/sisi.com.uy/sisiuy/cc19/webp/catalogo/38564_180/800x1200/soutien-top-clavel-nude.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-top-clavel-nude_38564_180",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless clavel - Gris melange",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/a434b8/sisi.com.uy/sisiuy/7aa5/webp/catalogo/38565_026/800x1200/colaless-clavel-gris-melange.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-clavel-gris-melange_38565_026",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless clavel - Nude",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/5470bc/sisi.com.uy/sisiuy/7dca/webp/catalogo/38565_180/800x1200/colaless-clavel-nude.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-clavel-nude_38565_180",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Bikini alto clavel - Gris melange",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/abe062/sisi.com.uy/sisiuy/ffa3/webp/catalogo/38566_026/800x1200/bikini-alto-clavel-gris-melange.jpg",
+    "link": "https://sisi.com.uy/catalogo/bikini-alto-clavel-gris-melange_38566_026",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Bikini alto clavel - Nude",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/709995/sisi.com.uy/sisiuy/7f80/webp/catalogo/38566_180/800x1200/bikini-alto-clavel-nude.jpg",
+    "link": "https://sisi.com.uy/catalogo/bikini-alto-clavel-nude_38566_180",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Boxer clavel - Gris melange",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/534dcf/sisi.com.uy/sisiuy/88c2/webp/catalogo/38567_026/800x1200/boxer-clavel-gris-melange.jpg",
+    "link": "https://sisi.com.uy/catalogo/boxer-clavel-gris-melange_38567_026",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Boxer clavel - Nude",
+    "precio": "$299",
+    "imagen": "https://f.fcdn.app/imgs/d43da0/sisi.com.uy/sisiuy/d8b8/webp/catalogo/38567_180/800x1200/boxer-clavel-nude.jpg",
+    "link": "https://sisi.com.uy/catalogo/boxer-clavel-nude_38567_180",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Top mahalo tex - Arrecife",
+    "precio": "$637",
+    "imagen": "https://f.fcdn.app/imgs/f42993/sisi.com.uy/sisiuy/5fb6/webp/catalogo/39318_849/800x1200/top-mahalo-tex-arrecife.jpg",
+    "link": "https://sisi.com.uy/catalogo/top-mahalo-tex-arrecife_39318_849",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Beauty pharma protector térmico argan-palta 200ml - Variante unica",
+    "precio": "$271",
+    "imagen": "https://f.fcdn.app/imgs/b3cb6b/sisi.com.uy/sisiuy/55e4/webp/catalogo/39884_100/800x1200/beauty-pharma-protector-termico-argan-palta-200ml-variante-unica.jpg",
+    "link": "https://sisi.com.uy/catalogo/beauty-pharma-protector-termico-argan-palta-200ml-variante-unica_39884_100",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Beauty pharma protector térmico keratina 200ml - Variante unica",
+    "precio": "$271",
+    "imagen": "https://f.fcdn.app/imgs/ce9aaa/sisi.com.uy/sisiuy/a20d/webp/catalogo/39885_100/800x1200/beauty-pharma-protector-termico-keratina-200ml-variante-unica.jpg",
+    "link": "https://sisi.com.uy/catalogo/beauty-pharma-protector-termico-keratina-200ml-variante-unica_39885_100",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "H2o crema humectante piel normal 320g beauty pha - Variante unica",
+    "precio": "$383",
+    "imagen": "https://f.fcdn.app/imgs/46a4a5/sisi.com.uy/sisiuy/ed3b/webp/catalogo/39887_100/800x1200/h2o-crema-humectante-piel-normal-320g-beauty-pha-variante-unica.jpg",
+    "link": "https://sisi.com.uy/catalogo/h2o-crema-humectante-piel-normal-320g-beauty-pha-variante-unica_39887_100",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "H2o crema humectante piel seca 320g beauty pharm - Variante unica",
+    "precio": "$383",
+    "imagen": "https://f.fcdn.app/imgs/7dfe4a/sisi.com.uy/sisiuy/cf55/webp/catalogo/39888_100/800x1200/h2o-crema-humectante-piel-seca-320g-beauty-pharm-variante-unica.jpg",
+    "link": "https://sisi.com.uy/catalogo/h2o-crema-humectante-piel-seca-320g-beauty-pharm-variante-unica_39888_100",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "H2o crema de ordeñe 320 g beauty pharma - Variante unica",
+    "precio": "$391",
+    "imagen": "https://f.fcdn.app/imgs/3e1152/sisi.com.uy/sisiuy/1d9e/webp/catalogo/39889_100/800x1200/h2o-crema-de-ordene-320-g-beauty-pharma-variante-unica.jpg",
+    "link": "https://sisi.com.uy/catalogo/h2o-crema-de-ordene-320-g-beauty-pharma-variante-unica_39889_100",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien triangulo amarilis - Negro",
+    "precio": "$341",
+    "imagen": "https://f.fcdn.app/imgs/208aca/sisi.com.uy/sisiuy/72b9/webp/catalogo/38473_002/800x1200/soutien-triangulo-amarilis-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-triangulo-amarilis-negro_38473_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien triangulo amarilis - Verde malva",
+    "precio": "$341",
+    "imagen": "https://f.fcdn.app/imgs/c2a3fb/sisi.com.uy/sisiuy/e68e/webp/catalogo/38473_037/800x1200/soutien-triangulo-amarilis-verde-malva.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-triangulo-amarilis-verde-malva_38473_037",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien prefromado b&c amarilis - Negro",
+    "precio": "$341",
+    "imagen": "https://f.fcdn.app/imgs/7a6e77/sisi.com.uy/sisiuy/f101/webp/catalogo/38474_002/800x1200/soutien-prefromado-b-c-amarilis-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-prefromado-b-c-amarilis-negro_38474_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien prefromado b&c amarilis - Verde malva",
+    "precio": "$341",
+    "imagen": "https://f.fcdn.app/imgs/796ad7/sisi.com.uy/sisiuy/26f3/webp/catalogo/38474_037/800x1200/soutien-prefromado-b-c-amarilis-verde-malva.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-prefromado-b-c-amarilis-verde-malva_38474_037",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless tira amarilis - Negro",
+    "precio": "$179",
+    "imagen": "https://f.fcdn.app/imgs/103434/sisi.com.uy/sisiuy/d039/webp/catalogo/38475_002/800x1200/colaless-tira-amarilis-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-tira-amarilis-negro_38475_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless tira amarilis - Verde malva",
+    "precio": "$179",
+    "imagen": "https://f.fcdn.app/imgs/52d522/sisi.com.uy/sisiuy/361c/webp/catalogo/38475_037/800x1200/colaless-tira-amarilis-verde-malva.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-tira-amarilis-verde-malva_38475_037",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless amarilis - Negro",
+    "precio": "$179",
+    "imagen": "https://f.fcdn.app/imgs/95ecfe/sisi.com.uy/sisiuy/0312/webp/catalogo/38476_002/800x1200/colaless-amarilis-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-amarilis-negro_38476_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless amarilis - Verde malva",
+    "precio": "$179",
+    "imagen": "https://f.fcdn.app/imgs/7c3f35/sisi.com.uy/sisiuy/1745/webp/catalogo/38476_037/800x1200/colaless-amarilis-verde-malva.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-amarilis-verde-malva_38476_037",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien preformado acanto - Negro",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/f98117/sisi.com.uy/sisiuy/9149/webp/catalogo/38481_002/800x1200/soutien-preformado-acanto-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-preformado-acanto-negro_38481_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien preformado acanto - Animal print",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/0002f4/sisi.com.uy/sisiuy/ee3f/webp/catalogo/38481_096/800x1200/soutien-preformado-acanto-animal-print.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-preformado-acanto-animal-print_38481_096",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien preformado copa c acanto - Negro",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/2cde7e/sisi.com.uy/sisiuy/b025/webp/catalogo/38482_002/800x1200/soutien-preformado-copa-c-acanto-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-preformado-copa-c-acanto-negro_38482_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien preformado copa c acanto - Animal print",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/715c09/sisi.com.uy/sisiuy/6c10/webp/catalogo/38482_096/800x1200/soutien-preformado-copa-c-acanto-animal-print.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-preformado-copa-c-acanto-animal-print_38482_096",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless tirita acanto - Negro",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/72a30d/sisi.com.uy/sisiuy/680f/webp/catalogo/38483_002/800x1200/colaless-tirita-acanto-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-tirita-acanto-negro_38483_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless tirita acanto - Animal print",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/f75f84/sisi.com.uy/sisiuy/cc4e/webp/catalogo/38483_096/800x1200/colaless-tirita-acanto-animal-print.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-tirita-acanto-animal-print_38483_096",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless acanto - Negro",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/42bc3f/sisi.com.uy/sisiuy/bfe3/webp/catalogo/38484_002/800x1200/colaless-acanto-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-acanto-negro_38484_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless acanto - Animal print",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/86f86e/sisi.com.uy/sisiuy/2551/webp/catalogo/38484_096/800x1200/colaless-acanto-animal-print.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-acanto-animal-print_38484_096",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien triangulo acerola - Negro",
+    "precio": "$395",
+    "imagen": "https://f.fcdn.app/imgs/2319a8/sisi.com.uy/sisiuy/9a2d/webp/catalogo/38485_002/800x1200/soutien-triangulo-acerola-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-triangulo-acerola-negro_38485_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien triangulo acerola - Verde malva",
+    "precio": "$395",
+    "imagen": "https://f.fcdn.app/imgs/8fe8a2/sisi.com.uy/sisiuy/5d09/webp/catalogo/38485_037/800x1200/soutien-triangulo-acerola-verde-malva.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-triangulo-acerola-verde-malva_38485_037",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless acerola - Negro",
+    "precio": "$221",
+    "imagen": "https://f.fcdn.app/imgs/575c3e/sisi.com.uy/sisiuy/9386/webp/catalogo/38486_002/800x1200/colaless-acerola-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-acerola-negro_38486_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless acerola - Verde malva",
+    "precio": "$221",
+    "imagen": "https://f.fcdn.app/imgs/efdea0/sisi.com.uy/sisiuy/0b53/webp/catalogo/38486_037/800x1200/colaless-acerola-verde-malva.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-acerola-verde-malva_38486_037",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien halter dracena - Blanco",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/03f434/sisi.com.uy/sisiuy/6a52/webp/catalogo/38501_001/800x1200/soutien-halter-dracena-blanco.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-halter-dracena-blanco_38501_001",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien halter dracena - Negro",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/5fe939/sisi.com.uy/sisiuy/9e3b/webp/catalogo/38501_002/800x1200/soutien-halter-dracena-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-halter-dracena-negro_38501_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien prefromado push up dracena - Blanco",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/b61d82/sisi.com.uy/sisiuy/3175/webp/catalogo/38502_001/800x1200/soutien-prefromado-push-up-dracena-blanco.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-prefromado-push-up-dracena-blanco_38502_001",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Soutien prefromado push up dracena - Negro",
+    "precio": "$419",
+    "imagen": "https://f.fcdn.app/imgs/13c68c/sisi.com.uy/sisiuy/9324/webp/catalogo/38502_002/800x1200/soutien-prefromado-push-up-dracena-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/soutien-prefromado-push-up-dracena-negro_38502_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless dracena - Blanco",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/b45a43/sisi.com.uy/sisiuy/dfca/webp/catalogo/38503_001/800x1200/colaless-dracena-blanco.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-dracena-blanco_38503_001",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Colaless dracena - Negro",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/e1eefa/sisi.com.uy/sisiuy/6223/webp/catalogo/38503_002/800x1200/colaless-dracena-negro.jpg",
+    "link": "https://sisi.com.uy/catalogo/colaless-dracena-negro_38503_002",
+    "marca": "SiSi"
+  },
+  {
+    "nombre": "Culotteless dracena - Blanco",
+    "precio": "$239",
+    "imagen": "https://f.fcdn.app/imgs/46a201/sisi.com.uy/sisiuy/5aa8/webp/catalogo/38504_001/800x1200/culotteless-dracena-blanco.jpg",
+    "link": "https://sisi.com.uy/catalogo/culotteless-dracena-blanco_38504_001",
+    "marca": "SiSi"
+  },
+  {
+  "nombre": "Culotteless dracena - Negro",
+  "precio": "$239",
+  "imagen": "https://f.fcdn.app/imgs/4cb573/sisi.com.uy/sisiuy/1893/webp/catalogo/38504_002/800x1200/culotteless-dracena-negro.jpg",
+  "link": "https://sisi.com.uy/catalogo/culotteless-dracena-negro_38504_002",
+  "marca": "SiSi"
+}
+]

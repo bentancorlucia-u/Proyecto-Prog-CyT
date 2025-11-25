@@ -1,0 +1,319 @@
+/* ===== GENERAL ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    background: #FCE4EC;
+    color: #6A1B4D;
+    height: 100%;
+}
+
+/* ===== HEADER ===== */
+.header {
+    background: #F8BBD0;
+    padding: 30px 0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.header-title {
+    font-size: 42px;
+    color: #E91E63;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* ===== UPLOAD AREA ===== */
+.upload-area {
+    background: #F8BBD0;
+    border: 3px dashed #F06292;
+    color: #AD1457;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto 45px;
+    width: 70%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-area:hover {
+    background: #FBC3D4;
+}
+
+.upload-area.dragover {
+    background: #F48FB1;
+    border-color: #D81B60;
+}
+
+.upload-text {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* ===== PREVIEW ===== */
+.input-preview {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.preview {
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* ===== TITLES ===== */
+.subtitulo {
+    font-size: 28px;
+    color: #AD1457;
+    margin: 35px 0 20px;
+    text-align: left;
+}
+
+/* ===== GRID ===== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+/* ===== PRODUCT CARD ===== */
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #AD1457;
+}
+
+.marca {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #8E3052;
+}
+
+.ver-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #F06292;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.ver-btn:hover {
+    background: #E91E63;
+}
+
+
+/* ========================================================
+   BOTÓN DE ANÁLISIS (en INDEX)
+======================================================== */
+.btn-analisis {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+
+    background: #F06292;      /* Rosa vibrante */
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.25s ease;
+}
+
+.btn-analisis:hover {
+    background: #E91E63;      /* Fucsia */
+    transform: translateY(-3px);
+}
+
+/* ======================================================
+   ESTILOS ESPECÍFICOS PARA LA PÁGINA DE ANÁLISIS
+====================================================== */
+
+body.analisis {
+    background: #FCE4EC;
+    color: #6A1B4D;
+    font-family: "Nunito", sans-serif;
+    padding: 40px 0 70px;
+}
+
+/* ------- Botón Volver ------- */
+.volver {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    background: #F06292;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.25s ease;
+}
+
+.volver:hover {
+    background: #E91E63;
+    transform: translateY(-2px);
+}
+
+/* ------- Título Principal ------- */
+body.analisis h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #AD1457;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* ------- Panel contenedor ------- */
+.panel {
+    background: white;
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto 45px;
+    padding: 35px 45px;
+    border-radius: 22px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.10);
+    transition: 0.3s;
+}
+
+.panel:hover {
+    box-shadow: 0 9px 22px rgba(0,0,0,0.12);
+}
+
+/* ------- Títulos de cada sección ------- */
+.panel h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #AD1457;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* ------- Tablas ------- */
+.panel table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.panel th {
+    width: 50%;
+    background: #F8BBD0;
+    color: #6A1B4D;
+    padding: 12px 10px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.panel td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #F3A9C2;
+}
+
+.panel tr:hover td {
+    background: #FEE2EC;
+}
+
+/* ------- TOP 5 – contenedor ------- */
+.top-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+/* ------- Cards (ya compatibles con tu estilo previo) ------- */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+.prod-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 12px;
+}
+
+/* ------- Botón dentro del card ------- */
+.ver-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #F06292;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.ver-btn:hover {
+    background: #E91E63;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis de Productos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png')}}">
+</head>
+
+<body class="analisis">
+
+<a href="/" class="volver">Volver</a>
+
+<h1>Panel de Análisis de Productos</h1>
+
+<!-- ============================
+     1. Cantidad por Marca
+================================ -->
+<div class="panel">
+    <h2>Cantidad de productos por marca</h2>
+
+    <table>
+        <tr>
+            <th>Marca</th>
+            <th>Cantidad</th>
+        </tr>
+        {% for marca, cant in conteo_marcas.items() %}
+        <tr>
+            <td>{{ marca }}</td>
+            <td>{{ cant }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<!-- ============================
+     2. Precio promedio por marca
+================================ -->
+<div class="panel">
+    <h2>Precio promedio por marca</h2>
+
+    <table>
+        <tr>
+            <th>Marca</th>
+            <th>Precio Promedio</th>
+        </tr>
+        {% for marca, prom in promedios.items() %}
+        <tr>
+            <td>{{ marca }}</td>
+            <td>${{ prom }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<!-- ============================
+     3. Top 5 productos más caros
+================================ -->
+<div class="panel">
+    <h2>Top 5 productos más caros</h2>
+
+    <div class="top-container">
+        {% for prod in top_5 %}
+        <div class="card">
+            <img class="prod-img" src="{{ prod.imagen }}" alt="img">
+            <h3>{{ prod.nombre }}</h3>
+            <p><b>Marca:</b> {{ prod.marca }}</p>
+            <p><b>Precio:</b> ${{ prod.precio }}</p>
+            <p><a href="{{ prod.link }}" target="_blank" class="ver-btn">Ver producto</a></p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>

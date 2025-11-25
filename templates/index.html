@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BIBBALOO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo.png')}}">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" class="header-logo">
+            <h1 class="header-title">BIBALOO</h1>
+        </div>
+    </header>
+
+    <a href="{{ url_for('analisis') }}" class="btn-analisis">Ver análisis de datos</a>
+
+
+    <div class="container">
+
+        <!-- Formulario -->
+        <form action="/" method="POST" enctype="multipart/form-data" class="upload-area" id="upload-area">
+            <p class="upload-text">Arrastrá una imagen o hacé clic para elegir una :)</p>
+            <input type="file" id="file-input" name="imagen" accept="image/*" required hidden>
+        </form>
+
+        {% if imagen_subida %}
+        <div class="input-preview">
+            <h3>Imagen ingresada</h3>
+            <img src="{{ imagen_subida }}" class="preview">
+        </div>
+        {% endif %}
+
+        {% if resultados %}
+        <h2 class="subtitulo">Productos similares</h2>
+        <div class="grid">
+            {% for r in resultados %}
+            <div class="card">
+                <img src="{{ r['imagen'] }}" alt="producto">
+                <h3>{{ r['nombre'] }}</h3>
+                <p class="marca">{{ r['marca'] }}</p>
+                <p class="precio">
+                    {% if r['precio'] %}
+                        ${{ r['precio']|round(0) }}
+                    {% else %}
+                        ${{ r['precio_raw'] }}
+                    {% endif %}
+                </p>
+                <p class="score">Similitud: {{ r['score'] }}</p>
+                <a href="{{ r['link'] }}" target="_blank" class="ver-btn">Ver producto</a>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+
+
+
+<script>
+    const uploadArea = document.getElementById("upload-area");
+    const fileInput = document.getElementById("file-input");
+
+    // CLICK → abrir Finder
+    uploadArea.addEventListener("click", () => fileInput.click());
+
+    // CUANDO ELIJO ARCHIVO → mandar form automático
+    fileInput.addEventListener("change", () => {
+        uploadArea.submit();
+    });
+
+    // DRAG & DROP
+    uploadArea.addEventListener("dragover", e => {
+        e.preventDefault();
+        uploadArea.classList.add("dragover");
+    });
+
+    uploadArea.addEventListener("dragleave", () => {
+        uploadArea.classList.remove("dragover");
+    });
+
+    uploadArea.addEventListener("drop", e => {
+        e.preventDefault();
+        uploadArea.classList.remove("dragover");
+        
+        fileInput.files = e.dataTransfer.files;
+        uploadArea.submit();
+    });
+
+</script>
+
+</body>
+</html>
+
