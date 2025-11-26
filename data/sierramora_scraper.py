@@ -31,7 +31,7 @@ def scrape_sierramora():
             last_height = new_h
 
         # ------------------------------------
-        # 🔥 FORZAR CARGA DE TODAS LAS IMÁGENES
+        # FORZAR CARGA DE TODAS LAS IMÁGENES
         # ------------------------------------
         page.evaluate("""
             const imgs = document.querySelectorAll('img');
