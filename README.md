@@ -46,3 +46,6 @@ Aplicación web en Flask para buscar productos por similitud de imagen y visuali
 - `analisis_productos.py`: utilidades de análisis de datos.
 - `cargar_productos.py`: carga y normalización de productos desde JSON.
 - `templates/` y `static/`: recursos para la interfaz web.
+## Gracias!
+
+Lucía Bentancor, Maria Victoria Felser, Bárbara Govea & Bianca Villalba
